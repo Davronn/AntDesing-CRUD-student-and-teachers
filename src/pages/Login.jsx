@@ -52,15 +52,7 @@ const Login = () => {
             placeholder="Password"
           />
         </Form.Item>
-        <Form.Item>
-          <Form.Item name="remember" valuePropName="checked" noStyle>
-            <Checkbox>Remember me</Checkbox>
-          </Form.Item>
-
-          <a className="login-form-forgot" href="">
-            Forgot password
-          </a>
-        </Form.Item>
+        
 
         <Form.Item>
           <Button
@@ -70,7 +62,7 @@ const Login = () => {
           >
             Log in
           </Button>
-          Or <a href="">register now!</a>
+       
         </Form.Item>
       </Form>
     </div>

@@ -22,7 +22,7 @@ const Profile = () => {
         <h1 className="p-3">Password: {password}</h1>
       </Card>
       <div className="mb-3" onClick={logout}>
-        <Button  color="primary" danger>Log out</Button>
+        <Button  color="primary" className="mt-3" danger>Log out</Button>
       </div>
     </div>
   );
